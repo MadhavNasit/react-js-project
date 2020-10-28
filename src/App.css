@@ -1,0 +1,94 @@
+.App label {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.required::after{
+  content: '*';
+  color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  position: sticky !important;
+  top:0;
+  z-index: 10;
+  box-shadow: 0px 28px 29px #0000006b;
+}
+
+
+
+li.nav-item > a.active {
+  display: block;
+  width: 100%;
+  height:100%;
+  color: white;
+  border-bottom: 2px solid rgb(255, 81, 0);
+}
+.user-card{
+  background-color: rgba(14, 68, 72, 0.05) !important;
+}
+
+
+.nav-user> a{
+  color: #222222;
+  background: #ffffff;
+  text-align: center;
+  text-decoration:unset;
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+input[type=text].react-inputs-validation__textbox__input___20hD{
+  padding: 3% !important;
+}
+
+.nav-user> a:hover{
+  text-decoration: unset;
+}
+.nav-user> a.active{
+  background: #755c9e;
+  color: #fff;
+  /* border-bottom: 4px solid rgb(255, 81, 0); */
+  
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+input[type=checkbox] {
+  position: initial !important;
+  opacity: 1 !important;
+}
+
+select{
+  -webkit-appearance: auto !important;
+}
+
